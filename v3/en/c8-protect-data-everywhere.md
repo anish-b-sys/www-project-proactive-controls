@@ -36,7 +36,7 @@ Mobile applications are at particular risk of data leakage because mobile device
 As a general rule, only the minimum data required should be stored on the mobile device. But if you must store sensitive data on a mobile device, then sensitive data should be stored within each mobile operating systems specific data storage directory. On Android this will be the Android keystore and on iOS this will be the iOS keychain.
 
 ### Key Lifecycle
-Secret keys are used in applications number of sensitive functions. For example, secret keys can be used to to sign JWTs, protect credit cards, provide various forms of authentication as well as facilitation other sensitive security features. In managing keys, a number of rules should be followed including:
+Secret keys are used in applications number of sensitive functions. For example, secret keys can be used to sign JWTs, protect credit cards, provide various forms of authentication as well as facilitation other sensitive security features. In managing keys, a number of rules should be followed including:
 
 * Ensure that any secret key is protected from unauthorized access
 * Store keys in a proper secrets vault as described below
